@@ -3,7 +3,7 @@
 function redirect($message, $page=null){
     $url = 'index.php';
     if($page){
-        $url .='login.php';
+        $url ='login.php';
     }
     header("Location: $url?message=$message");
     exit;
@@ -32,4 +32,4 @@ foreach ($users as $user) {
 $hashedPassword = md5($password);
 $users[$username] = $hashedPassword;
 
-redirect("account registered", "index.php");
+redirect("account registered", "login.php");

@@ -34,13 +34,12 @@
 
 
 
-
 <div class="container">
 
     <form action="verification.php" method="post" class="form form-control">
 
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <label for="exampleFormControlInput1" class="form-label">username</label>
             <input name="userName" type="text" class="form-control" placeholder="username">
         </div>
 
