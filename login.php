@@ -31,26 +31,21 @@
         </div>
     </div>
 </nav>
-<?php
-if(!empty($_GET["message"])){?>
 
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong><?= $_GET["message"] ?></strong> You should check in on some of those fields below.
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-
-<?php } ?>
 
 
 
 <div class="container">
 
-    <form action="verificationRegister.php" method="post" class="form form-control">
+    <form action="verification.php" method="post" class="form form-control">
 
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
             <input name="userName" type="text" class="form-control" placeholder="username">
         </div>
+
+
+
 
         <label for="inputPassword5" class="form-label">Password</label>
         <input type="password" name="password" class="form-control" aria-describedby="passwordHelpBlock">
@@ -59,7 +54,7 @@ if(!empty($_GET["message"])){?>
         </div>
 
         <div class="col-auto">
-            <button type="submit" class="btn btn-primary mb-3">Sign up</button>
+            <button type="submit" class="btn btn-primary mb-3">Connect</button>
         </div>
 
 
