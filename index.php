@@ -42,7 +42,6 @@ if(!empty($_GET["message"])){?>
 <?php } ?>
 
 
-
 <div class="container">
 
     <form action="verificationRegister.php" method="post" class="form form-control">
